@@ -22,6 +22,5 @@ for layer in in_data:
 
 print ("analysis complete")
 
-#clean up
-
+#clean up temporary memory layer
 arcpy.Delete_management("temp_output")
